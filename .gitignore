@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 数据集产物（这些脚本处理的就是数据，别把数据本身提上来）
+datasets/
+runs/
+*.jpg
+*.jpeg
+*.png
+*.txt
+!requirements.txt
+
+# 模型权重
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
